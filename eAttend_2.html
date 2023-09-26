@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracking</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Attendance Tracking System</h1>
+    </header>
+    <div class="container">
+        <h2>Today's Class: [Class Name]</h2>
+
+        <!-- Faculty Member's View -->
+        <h3>Faculty Member View</h3>
+        <table>
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>TEJA</td>
+                <td>
+                    <button onclick="markAttendance(1, 'Present')">Present</button>
+                    <button onclick="markAttendance(1, 'Absent')">Absent</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PUJITHA</td>
+                <td>
+                    <button onclick="markAttendance(2, 'Present')">Present</button>
+                    <button onclick="markAttendance(2, 'Absent')">Absent</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CHAITANYA</td>
+                <td>
+                    <button onclick="markAttendance(3, 'Present')">Present</button>
+                    <button onclick="markAttendance(3, 'Absent')">Absent</button>
+                </td>
+            </tr><tr>
+                <td>4</td>
+                <td>MEENA</td>
+                <td>
+                    <button onclick="markAttendance(4, 'Present')">Present</button>
+                    <button onclick="markAttendance(4, 'Absent')">Absent</button>
+                </td>
+            </tr><tr>
+                <td>5</td>
+                <td>DIVYA</td>
+                <td>
+                    <button onclick="markAttendance(5, 'Present')">Present</button>
+                    <button onclick="markAttendance(5, 'Absent')">Absent</button>
+                </td>
+            </tr><tr>
+                <td>6</td>
+                <td>TEVENDRA</td>
+                <td>
+                    <button onclick="markAttendance(6, 'Present')">Present</button>
+                    <button onclick="markAttendance(6, 'Absent')">Absent</button>
+                </td>
+            </tr><tr>
+                <td>7</td>
+                <td>DINESH</td>
+                <td>
+                    <button onclick="markAttendance(7, 'Present')">Present</button>
+                    <button onclick="markAttendance(7, 'Absent')">Absent</button>
+                </td>
+            </tr><tr>
+                <td>8</td>
+                <td>NARASIMHA</td>
+                <td>
+                    <button onclick="markAttendance(8, 'Present')">Present</button>
+                    <button onclick="markAttendance(8, 'Absent')">Absent</button>
+                </td>
+            </tr><tr>
+                <td>9</td>
+                <td>SURYA</td>
+                <td>
+                    <button onclick="markAttendance(9, 'Present')">Present</button>
+                    <button onclick="markAttendance(9, 'Absent')">Absent</button>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>KRISHNA</td>
+                <td>
+                    <button onclick="markAttendance(10, 'Present')">Present</button>
+                    <button onclick="markAttendance(10, 'Absent')">Absent</button>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Student's View (for reference) -->
+        <h3>Student View (for reference)</h3>
+        <p>Your attendance is automatically marked when you attend the class.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
